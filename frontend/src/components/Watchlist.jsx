@@ -3,7 +3,7 @@ function Watchlist({ watchlist, stocks, selectedTicker, onSelectStock }) {
     <div className="watchlist">
         <h2> My Watchlist</h2>
 
-        <div className="watchlist-itmes">
+        <div className="watchlist-items">
             {watchlist.map((ticker) => {
                 const stock = stocks[ticker];
 
