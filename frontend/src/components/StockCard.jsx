@@ -9,7 +9,7 @@ function StockCard({ stock }) {
                 <span className="stock-trend"> {stock.trend}</span>
             </div>
 
-            <div className="stock-state">
+            <div className="stock-stats">
                 <p>
                     <span>Price</span>
                     <strong>{stock.price}</strong>
